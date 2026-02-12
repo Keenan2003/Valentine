@@ -12,7 +12,9 @@ export default function MusicPlayer() {
     const a = new Audio("/music/song.mp3");
     a.loop = true;
     a.preload = "auto";
-    a.playsInline = true; // important for iOS
+    a.setAttribute("playsinline", "true");
+    a.setAttribute("webkit-playsinline", "true"); // extra for older iOS Safari
+    // important for iOS
     audioRef.current = a;
 
     const onCanPlay = () => setReady(true);
