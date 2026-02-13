@@ -265,10 +265,10 @@ export default function Page() {
 
                 <div className="mt-5 rounded-2xl bg-gradient-to-r from-pink-100 to-rose-100 p-4">
                   <p className="text-base leading-relaxed">
-                    Hii {herName} 🥺
+                    Hii {herName} Baby 🥺
                     <br />
-                    I made this little page because I wanted to ask you something
-                    in the cutest way possible.
+                    I made this little page because I wanted to ask you out
+                    in the cutest way possible babe.
                   </p>
                 </div>
 
@@ -356,18 +356,18 @@ export default function Page() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.35 }}
               >
-                <h2 className="text-2xl font-bold">A little love letter 💌</h2>
+                <h2 className="text-2xl font-bold">A little love letter Baby 💌</h2>
 
                 <div className="mt-4 rounded-2xl bg-rose-50 p-4 text-sm leading-relaxed">
                   <p>
                     Dear {herName},
                     <br />
-                    I don’t know how you do it, but you make my life feel softer,
-                    happier, and more beautiful. I’m grateful for you—your smile,
-                    your voice, your kindness, and even your silly moments.
+                    I don’t know how you do it, but you make my life feel better,
+                    happier, and more beautiful. I’m grateful to have you in my life, your smile,
+                    your voice, your kindness, and every day feels memorable. Happy Valentine's day Babygirl.
                     <br />
                     <br />
-                    I just want you to know: you’re my favorite person. Always.
+                    I just want you to know: you’re my favorite person babe. Always. I really love you a lot and care about you Babygirl.
                     <br />
                     <br />
                     Love,
@@ -431,7 +431,7 @@ export default function Page() {
 
                 <div className="mt-6">
                   <label className="text-sm font-semibold text-slate-700">
-                    Leave a cute note (optional):
+                    Leave a cute note (Press "YES" to send the note, "NO" is not an option):
                   </label>
                   <textarea
                     value={note}
