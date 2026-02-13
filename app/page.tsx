@@ -71,7 +71,7 @@ export default function Page() {
   const yourName = "Keenan";
 
   // ✅ Passkey (ALWAYS ask password)
-  const PASSKEY = "0802";
+  const PASSKEY = "2612";
   const HINT_TEXT = "Hint: our first date 💞";
 
   // ✅ Music (put your mp3 in public/music/)
